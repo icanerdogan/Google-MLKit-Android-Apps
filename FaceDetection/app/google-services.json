@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "681777377364",
+    "project_id": "face-detection-4a7cf",
+    "storage_bucket": "face-detection-4a7cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681777377364:android:0e3b4dc613113c80023dc1",
+        "android_client_info": {
+          "package_name": "com.icanerdogan.facedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681777377364-tlvj49fbfu2av4u73ck6uf7vmjm9rlte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHO8jS3-0EDZTpIw-nUPHkJ_XtF2nA1TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681777377364-tlvj49fbfu2av4u73ck6uf7vmjm9rlte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
