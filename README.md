@@ -15,3 +15,5 @@ Interface View          |  Text Recognition
 Single Face Detection         |  Multiple Face Detection
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/FaceDetectionApp1.png)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/FaceDetectionApp2.png)
+
+<h2>  Pose Detection App Coming Soon... </h2>
