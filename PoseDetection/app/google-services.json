@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "704958838880",
+    "project_id": "pose-detection-92ec1",
+    "storage_bucket": "pose-detection-92ec1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704958838880:android:5960fe1b33bc06f495eb05",
+        "android_client_info": {
+          "package_name": "com.icanerdogan.posedetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704958838880-9ojgf6fmrroeslbgcr58b5s36tu9o4mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrBCCs0ZEVbDu-g6ZcnNovZ_u5ljcKoxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704958838880-9ojgf6fmrroeslbgcr58b5s36tu9o4mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
