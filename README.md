@@ -16,4 +16,9 @@ Single Face Detection         |  Multiple Face Detection
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/FaceDetectionApp1.png)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/FaceDetectionApp2.png)
 
-<h2>  Pose Detection App Coming Soon... </h2>
+<h2>  <a href = "https://github.com/icanerdogan/MLKit-Android-Apps/tree/master/PoseDetection" > Pose Detection </a> </h2>
+<p> The ML Kit Pose Detection API is a lightweight versatile solution for app developers to detect the pose of a subject's body in real time from a continuous video or static image. A pose describes the body's position at one moment in time with a set of x,y skeletal landmark points. The landmarks correspond to different body parts such as the shoulders and hips. The relative positions of landmarks can be used to distinguish one pose from another. </p>
+
+Main Activity 1         |  Main Activity 2
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/PoseDetectionApp1.png)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/PoseDetectionApp2.png)
