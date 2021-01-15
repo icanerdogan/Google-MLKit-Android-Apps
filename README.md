@@ -22,3 +22,5 @@ Single Face Detection         |  Multiple Face Detection
 Main Activity 1         |  Main Activity 2
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/PoseDetectionApp1.png)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/PoseDetectionApp2.png)
+
+<h2> Barcode Scanning App Coming Soon... </h2>
