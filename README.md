@@ -27,4 +27,7 @@ Main Activity 1         |  Main Activity 2
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/PoseDetectionApp1.png)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/PoseDetectionApp2.png)
 
-<h2> Barcode Scanning App Coming Soon... </h2>
+<h2> Barcode Scanning App </h2>
+<p>With ML Kit's barcode scanning API, you can read data encoded using most standard barcode formats. Barcode scanning happens on the device, and doesn't require a network connection.
+
+Barcodes are a convenient way to pass information from the real world to your app. In particular, when using 2D formats such as QR code, you can encode structured data such as contact information or WiFi network credentials. Because ML Kit can automatically recognize and parse this data, your app can respond intelligently when a user scans a barcode.  </p>
