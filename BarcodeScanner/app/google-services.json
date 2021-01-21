@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "336522722730",
+    "project_id": "barcode-scanner-fcaba",
+    "storage_bucket": "barcode-scanner-fcaba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336522722730:android:b89a77db4c8f0b4e86bfd3",
+        "android_client_info": {
+          "package_name": "com.icanerdogan.barcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336522722730-lht9najcedqd94j0tmt3hnth1lu7n1bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9K_J5_dcJ1QigK668rDb68muLgAggaKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336522722730-lht9najcedqd94j0tmt3hnth1lu7n1bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
