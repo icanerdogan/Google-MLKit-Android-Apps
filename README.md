@@ -34,3 +34,5 @@ Barcodes are a convenient way to pass information from the real world to your ap
 Interface View        |  Get Information From Barcode
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/BarcodeScannerApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/BarcodeScannerApp2.jpg)
+
+<h2> Image Labeling App Coming Soon...</h2>
