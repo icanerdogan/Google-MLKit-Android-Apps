@@ -43,3 +43,5 @@ Interface View        |  Get Information From Barcode
 Interface View        |  Prediction
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ImageLabelerApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ImageLabelerApp2.jpg)
+
+<h4> <b> Follow me on Github :) </b> </h4>
