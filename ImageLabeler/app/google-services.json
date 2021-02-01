@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920714238116",
+    "project_id": "image-labeler-cb390",
+    "storage_bucket": "image-labeler-cb390.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920714238116:android:d74bd54e567bc4f5b7ae31",
+        "android_client_info": {
+          "package_name": "com.icanerdogan.imagelabeler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920714238116-6s3j0s3tmvhmvtbogim8benq3uo2j4jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWfU_r9xrTkGUZKSsFVwOwPk1HwCkvztk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920714238116-6s3j0s3tmvhmvtbogim8benq3uo2j4jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
