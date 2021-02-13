@@ -1,4 +1,5 @@
 <h1> ML Kit Android Apps </h1>
+<h2> <a href = "https://www.udemy.com/course/mlkit-android-programlama/">❤ UDEMY COURSE ❤</a> </h2>
 
 ```
 git clone https://github.com/icanerdogan/MLKit-Android-Apps
