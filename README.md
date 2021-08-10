@@ -45,4 +45,13 @@ Interface View        |  Prediction
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ImageLabelerApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ImageLabelerApp2.jpg)
 
+
+<h2> <a href=""> Object Detection and Tracking App </a></h2>
+
+<p>With ML Kit's on-device Object Detection and Tracking API, you can detect and track objects in an image or live camera feed. </p>
+
+Object Detection 1      |  Object Detection 2
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ObjectDetectTrackingApp2.jpg)  |  ![](https://media.giphy.com/media/TR3bpoE5BEbQrnC28W/giphy.gif)
+
 <h4> <b> Follow me on Github :) </b> </h4>
