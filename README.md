@@ -46,12 +46,25 @@ Interface View        |  Prediction
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ImageLabelerApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ImageLabelerApp2.jpg)
 
 
-<h2> <a href=""> Object Detection and Tracking App </a></h2>
+<h2> <a href="https://github.com/icanerdogan/MLKit-Android-Apps/tree/master/ObjectDetectTracking"> Object Detection and Tracking App </a></h2>
 
 <p>With ML Kit's on-device Object Detection and Tracking API, you can detect and track objects in an image or live camera feed. </p>
 
 Object Detection 1       |  Object Detection 2
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ObjectDetectTrackingApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ObjectDetectTrackingApp2.jpg)
+
+
+
+
+<h2> <a href="https://github.com/icanerdogan/MLKit-Android-Apps/tree/master/DigitalInkRecognition"> Digital Ink Recognition App </a></h2>
+
+<p>With ML Kit's Digital Ink Recognition API, you can recognize handwritten text on a digital surface in hundreds of languages, as well as classify sketches. The Digital Ink Recognition API uses the same technology that powers handwriting recognition in Gboard, Google Translate, and the Quick, Draw! game.
+
+Digital Ink Recognition makes it possible to write on the screen instead of typing on a virtual keyboard. This lets users draw characters that are not available on their keyboard, such as ệ, अ or 森 for latin alphabet keyboards. The API can also transcribe handwritten notes and recognize hand‑drawn shapes and emojis.</p>
+
+Digital Ink Recognition 1       |  Digital Ink Recognition 2
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/DigitalInkRecognitionApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/DigitalInkRecognitionApp2.jpg)
 
 <h4> <b> Follow me on Github :) </b> </h4>
