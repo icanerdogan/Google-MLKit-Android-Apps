@@ -88,45 +88,28 @@ Front Camera       |  Rear Camera
 <h2>  <a href = "https://github.com/icanerdogan/MLKit-Android-Apps/tree/master/PoseDetection" > Pose Detection App</a> </h2>
 <p> The ML Kit Pose Detection API is a lightweight versatile solution for app developers to detect the pose of a subject's body in real time from a continuous video or static image. A pose describes the body's position at one moment in time with a set of x,y skeletal landmark points. The landmarks correspond to different body parts such as the shoulders and hips. The relative positions of landmarks can be used to distinguish one pose from another. </p>
 
-Main Activity 1         |  Main Activity 2
-:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/PoseDetectionApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/PoseDetectionApp2.jpg)
 
 <h2> <a href="https://github.com/icanerdogan/MLKit-Android-Apps/tree/master/BarcodeScanner"> Barcode Scanning App </a></h2>
 <p>With ML Kit's barcode scanning API, you can read data encoded using most standard barcode formats. Barcode scanning happens on the device, and doesn't require a network connection.
 
 Barcodes are a convenient way to pass information from the real world to your app. In particular, when using 2D formats such as QR code, you can encode structured data such as contact information or WiFi network credentials. Because ML Kit can automatically recognize and parse this data, your app can respond intelligently when a user scans a barcode.  </p>
-Interface View        |  Get Information From Barcode
-:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/BarcodeScannerApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/BarcodeScannerApp2.jpg)
 
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <h2> <a href="https://github.com/icanerdogan/MLKit-Android-Apps/tree/master/ImageLabeler"> Image Labeling App </a></h2>
 
 <p>With ML Kit's image labeling APIs you can detect and extract information about entities in an image across a broad group of categories. The default image labeling model can identify general objects, places, activities, animal species, products, and more. </p>
 
-Interface View        |  Prediction
-:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ImageLabelerApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ImageLabelerApp2.jpg)
-
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <h2> <a href="https://github.com/icanerdogan/MLKit-Android-Apps/tree/master/ObjectDetectTracking"> Object Detection and Tracking App </a></h2>
 
 <p>With ML Kit's on-device Object Detection and Tracking API, you can detect and track objects in an image or live camera feed. </p>
 
-Object Detection 1       |  Object Detection 2
-:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ObjectDetectTrackingApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/ObjectDetectTrackingApp2.jpg)
-
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 <h2> <a href="https://github.com/icanerdogan/MLKit-Android-Apps/tree/master/DigitalInkRecognition"> Digital Ink Recognition App </a></h2>
 
 <p>With ML Kit's Digital Ink Recognition API, you can recognize handwritten text on a digital surface in hundreds of languages, as well as classify sketches. The Digital Ink Recognition API uses the same technology that powers handwriting recognition in Gboard, Google Translate, and the Quick, Draw! game.
 
 Digital Ink Recognition makes it possible to write on the screen instead of typing on a virtual keyboard. This lets users draw characters that are not available on their keyboard, such as ệ, अ or 森 for latin alphabet keyboards. The API can also transcribe handwritten notes and recognize hand‑drawn shapes and emojis.</p>
-
-Digital Ink Recognition 1       |  Digital Ink Recognition 2
-:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/DigitalInkRecognitionApp1.jpg)  |  ![](https://raw.githubusercontent.com/icanerdogan/MLKit-Android-Apps/master/App%20Images/DigitalInkRecognitionApp2.jpg)
-
-<h4> <b> Follow me on Github :) </b> </h4>
