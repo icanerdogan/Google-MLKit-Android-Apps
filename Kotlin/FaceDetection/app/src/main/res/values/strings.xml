@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FaceDetection</string>
+    <string name="turn_camera">Turn Camera</string>
+    <string name="stop_camera">Stop Camera</string>
+</resources>

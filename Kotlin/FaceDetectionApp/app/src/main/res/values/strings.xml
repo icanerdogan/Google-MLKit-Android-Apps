@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Face Detection App</string>
-    <string name="turn_camera">Turn Camera</string>
-    <string name="stop_camera">Stop Camera</string>
-    <string name="start_camera">Start Camera</string>
-</resources>
