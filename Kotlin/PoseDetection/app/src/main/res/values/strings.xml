@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PoseDetection</string>
+    <string name="choose_image_from_gallery">Choose Image From Gallery</string>
+    <string name="back">Back</string>
+    <string name="download">Download</string>
+    <string name="info">Info</string>
+</resources>
