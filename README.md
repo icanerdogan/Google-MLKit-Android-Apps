@@ -104,7 +104,7 @@ Front Camera       |  Rear Camera
 <p> The ML Kit Pose Detection API is a lightweight versatile solution for app developers to detect the pose of a subject's body in real time from a continuous video or static image. A pose describes the body's position at one moment in time with a set of x,y skeletal landmark points. The landmarks correspond to different body parts such as the shoulders and hips. The relative positions of landmarks can be used to distinguish one pose from another. </p>
 <p>ML Kit Pose Detection produces a full-body 33 point skeletal match that includes facial landmarks (ears, eyes, mouth, and nose) and points on the hands and feet. Figure 1 below shows the landmarks looking through the camera at the user, so it's a mirror image. The user's right side appears on the left of the image:</p>
 
-<img src="https://github.com/icanerdogan/PoseDetectionApp-MLKit/assets/52867508/c1466a8f-ca78-4fc0-869c-253134d9ca5b">
+<img src="https://raw.githubusercontent.com/icanerdogan/Google-MLKit-Android-Apps/master/Images/Project%20Images/Kotlin/Pose%20Detection/Pose%20Detection%20-%20Example.jpg">
 
 <p>ML Kit Pose Detection doesn't require specialized equipment or ML expertise in order to achieve great results. With this technology developers can create one of a kind experiences for their users with only a few lines of code.</p>
 
