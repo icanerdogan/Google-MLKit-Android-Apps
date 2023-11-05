@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="change_mode">Change Mode</string>
+    <string name="foreground_mode">Foreground Mode</string>
+    <string name="selfie_image">Selfie Image</string>
+    <string name="segment_selfie">Segment Selfie</string>
+    <string name="button_camera">Button Camera</string>
+    <string name="button_gallery">Button Gallery</string>
+    <string name="button_backup">Button Backup</string>
+    <string name="button_download">Button Download</string>
+</resources>
