@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Barcode Scanner</string>
+    <string name="control_camera">Control Camera</string>
+    <string name="flash_light">Flash Light</string>
+</resources>

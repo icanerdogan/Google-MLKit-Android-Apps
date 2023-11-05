@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_info_dialog">
+
+    <View
+        android:layout_width="48dp"
+        android:layout_height="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/elips" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/buttonCopy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_copy"
+        android:background="@android:color/transparent"
+        android:layout_gravity="end"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textIsSelectable="true"
+        tools:text="Barcode Title"/>
+
+    <TextView
+        android:id="@+id/textViewSubTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="start"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textIsSelectable="true"
+        tools:text="Barcode Subtitle 1"/>
+
+    <TextView
+        android:id="@+id/textViewSubTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="start"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textIsSelectable="true"
+        tools:text="Barcode Subtitle 2"/>
+
+    <TextView
+        android:id="@+id/textViewSubTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="start"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textIsSelectable="true"
+        tools:text="Barcode Subtitle 3"/>
+
+    <TextView
+        android:id="@+id/textViewSubTitle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="start"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textIsSelectable="true"
+        tools:text="Barcode Subtitle 4"/>
+
+    <TextView
+        android:id="@+id/textViewSubTitle5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="start"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textIsSelectable="true"
+        tools:text="Barcode Subtitle 5"/>
+    <TextView
+        android:id="@+id/textViewSubTitle6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="start"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textIsSelectable="true"
+        tools:text="Barcode Subtitle 6"/>
+    <TextView
+        android:id="@+id/textViewSubTitle7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="start"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textIsSelectable="true"
+        tools:text="Barcode Subtitle 7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewValueType"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:gravity="end"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            tools:text="Barcode Value Type"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewFormat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:gravity="end"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textStyle="bold"
+            android:textIsSelectable="true"
+            tools:text="Barcode Format"/>
+    </LinearLayout>
+</LinearLayout>
