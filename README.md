@@ -160,6 +160,11 @@ Main Screen        |  Segment
 <!--------------------------------------------------------------------------- BARCODE SCANNER APP ---------------------------------------------------------------------------------->
 <details open>
   <summary><h2> Barcode Scanning App </h2></summary>
+  
+  <p>Welcome to QRSnap, your all-in-one barcode scanning solution! Harnessing the power of the state-of-the-art Google MLKit Artificial Intelligence library, QRSnap delivers unparalleled performance and accuracy in scanning barcodes. With the ability to seamlessly capture and decode numerous types of barcodes, including QR codes, UPC codes, and more, this app simplifies the process for users, whether it's through live camera scanning or selecting images from the gallery.</p>
+
+<a href="https://play.google.com/store/apps/details?id=com.ibrahimcanerdogan.barcodescanner"><img width="90" height="90" src="https://img.icons8.com/?size=512&id=L1ws9zn2uD01&format=png"/></a>
+
 <p> The API works with static images and live video use cases. During live video, the API will leverage output from previous frames to return smoother segmentation results.</p>
 <p>With ML Kit's barcode scanning API, you can read data encoded using most standard barcode formats. Barcode scanning happens on the device, and doesn't require a network connection. </p>
 <p>arcodes are a convenient way to pass information from the real world to your app. In particular, when using 2D formats such as QR code, you can encode structured data such as contact information or WiFi network credentials. Because ML Kit can automatically recognize and parse this data, your app can respond intelligently when a user scans a barcode.  </p>
