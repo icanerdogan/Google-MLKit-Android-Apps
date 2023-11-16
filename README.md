@@ -4,10 +4,10 @@
 ```
 git clone https://github.com/icanerdogan/MLKit-Android-Apps
 ```
-![ml-kit-logo (1)](https://github.com/icanerdogan/Google-MLKit-Android-Apps/assets/52867508/5e59d68f-90b9-4c98-86a9-f1aac0d259a7)
 
+<!------------------------------------------------------------------------------- CONTENTS ------------------------------------------------------------------------------>
 
-# Contents
+## Contents
 - <b> [Text Recognition App](#text-recognition-app) </b>
 - <b> [Face Detection App](#face-detection-app) </b>
 - <b> [Pose Detection App](#pose-detection-app) </b>
@@ -15,6 +15,11 @@ git clone https://github.com/icanerdogan/MLKit-Android-Apps
 - <b> [Barcode Scanning App](#barcode-scanning-app) </b>
 - <b> [Image Labeling App](#image-labeling-app) </b>
 - <b> [Digital Ink Recognition App](#digital-ink-recognition-app) </b>
+
+<!------------------------------------------------------------------------------- BANNER ------------------------------------------------------------------------------>
+
+---
+![mlkit-banner](https://github.com/icanerdogan/Google-MLKit-Android-Apps/assets/52867508/5e59d68f-90b9-4c98-86a9-f1aac0d259a7)
 
 <!------------------------------------------------------------------------------- TEXT RECOGNITION APP ------------------------------------------------------------------------------>
 ---
@@ -107,8 +112,9 @@ Front Camera       |  Rear Camera
 
 <!--------------------------------------------------------------------------------- POSE DETECTION APP ---------------------------------------------------------------------------->
 ---
-<details open>
-  <summary><h2><a name="pose-detection-app"> Pose Detection App </a></h2></summary>
+
+# Pose Detection App <a name="pose-detection-app"></a>
+
 <p>Welcome to PoseSnap, your ultimate tool for achieving a perfect posture and a healthier you! Our cutting-edge Posture Detect AI technology brings advanced pose analysis right to your fingertips. With PoseSnap, you can effortlessly assess your body posture from any image in your gallery, gain valuable insights about body angles, and visualize your progress towards a confident and aligned stance.</p>
 
 <a href="https://play.google.com/store/apps/details?id=com.ibrahimcanerdogan.posedetectionapp"><img width="90" height="90" src="https://img.icons8.com/?size=512&id=L1ws9zn2uD01&format=png"/></a>
@@ -136,15 +142,13 @@ Front Camera       |  Rear Camera
 Main Screen        |  Posture Screen       |  Angle Screen
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/icanerdogan/PoseDetectionApp-MLKit/assets/52867508/0eb424c5-e2fe-4663-a466-6ea3759d2b11)  |  ![](https://github.com/icanerdogan/PoseDetectionApp-MLKit/assets/52867508/c50996a5-ef32-4048-95ce-90d7952d27aa) | ![](https://github.com/icanerdogan/PoseDetectionApp-MLKit/assets/52867508/2550b77f-e15b-466c-bd5f-f4fee496ed78)
-  
-</details>
-
 
 <!------------------------------------------------------------------------------------- SELFIE SEGMENTATION APP ------------------------------------------------------------------------>
 ---
-<details open>
-  <summary><h2><a name="selfie-segmentation-app"> Selfie Segmentation App </a></h2></summary>
-  <p>Welcome to SelfieSnap: Selfie Studio AI, the ultimate selfie editing app powered by cutting-edge artificial intelligence! Unleash your creativity and take your selfies to the next level with our advanced technology that seamlessly separates your face from the background, opening up a world of exciting possibilities.</p>
+
+# Selfie Segmentation App <a name="selfie-segmentation-app"></a>
+
+<p>Welcome to SelfieSnap: Selfie Studio AI, the ultimate selfie editing app powered by cutting-edge artificial intelligence! Unleash your creativity and take your selfies to the next level with our advanced technology that seamlessly separates your face from the background, opening up a world of exciting possibilities.</p>
 <a href="https://play.google.com/store/apps/details?id=com.ibrahimcanerdogan.selfiesegmentationapp"><img width="90" height="90" src="https://img.icons8.com/?size=512&id=L1ws9zn2uD01&format=png"/></a>
 
 <p>ML Kit's selfie segmentation API allows developers to easily separate the background from users within a scene and focus on what matters. Adding cool effects to selfies or inserting your users into interesting background environments has never been easier.</p>
@@ -168,14 +172,12 @@ Main Screen        |  Segment
 :-------------------------:|:-------------------------:|
 ![](https://github.com/icanerdogan/SelfieSegmentationApp-MLKit/assets/52867508/dfca1f22-f891-4837-9841-0185ae7f3188) | ![](https://github.com/icanerdogan/SelfieSegmentationApp-MLKit/assets/52867508/6d1d17a7-ccb8-4f3d-aa4a-e9ee64936eeb)
 
-</details>
-
 <!--------------------------------------------------------------------------- BARCODE SCANNER APP ---------------------------------------------------------------------------------->
 ---
-<details open>
-  <summary><h2><a name="barcode-scanning-app"> Barcode Scanning App </a></h2></summary>
-  
-  <p>Welcome to QRSnap, your all-in-one barcode scanning solution! Harnessing the power of the state-of-the-art Google MLKit Artificial Intelligence library, QRSnap delivers unparalleled performance and accuracy in scanning barcodes. With the ability to seamlessly capture and decode numerous types of barcodes, including QR codes, UPC codes, and more, this app simplifies the process for users, whether it's through live camera scanning or selecting images from the gallery.</p>
+
+# Barcode Scanning App <a name="barcode-scanning-app"></a>
+
+<p>Welcome to QRSnap, your all-in-one barcode scanning solution! Harnessing the power of the state-of-the-art Google MLKit Artificial Intelligence library, QRSnap delivers unparalleled performance and accuracy in scanning barcodes. With the ability to seamlessly capture and decode numerous types of barcodes, including QR codes, UPC codes, and more, this app simplifies the process for users, whether it's through live camera scanning or selecting images from the gallery.</p>
 
 <a href="https://play.google.com/store/apps/details?id=com.ibrahimcanerdogan.barcodescanner"><img width="90" height="90" src="https://img.icons8.com/?size=512&id=L1ws9zn2uD01&format=png"/></a>
 
@@ -201,13 +203,11 @@ Main Screen       |  Info Screen
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/icanerdogan/BarcodeScannerApp-MLKit/master/Documents/App%20Image%20-%201.png)  |  ![](https://raw.githubusercontent.com/icanerdogan/BarcodeScannerApp-MLKit/master/Documents/App%20Image%20-%202.png)
 
-</details>
-
 
 <!----------------------------------------------------------------------------- IMAGE LABELING APP -------------------------------------------------------------------------------->
 ---
-<details open>
-  <summary><h2><a name="image-labeling-app"> Image Labeling App </a></h2></summary>
+
+# Image Labeling App <a name="image-labeling-app"></a>
 
 <p>Introducing TagSnap: Detect Image Label AI, a cutting-edge application developed to revolutionize the way you interact with images. Powered by ML Kit's advanced image labeling APIs, TagSnap enables you to effortlessly detect and extract information about a diverse range of entities in your photos. From identifying general objects, places, activities, and animal species to recognizing specific products, our app provides an unparalleled image labeling experience.</p>
 <a href="https://play.google.com/store/apps/details?id=com.ibrahimcanerdogan.imagelabeler"><img width="90" height="90" src="https://img.icons8.com/?size=512&id=L1ws9zn2uD01&format=png"/></a>
@@ -233,12 +233,11 @@ Main Screen        |  Result Screen
 :-------------------------:|:-------------------------:|
 ![main-screen](https://github.com/icanerdogan/ImageLabelingApp-MLKit/assets/52867508/84102370-9f91-4fe2-b68b-34f05b63afc2) | ![result-screen](https://github.com/icanerdogan/ImageLabelingApp-MLKit/assets/52867508/4546db84-37d5-43d1-bf39-1f3f79e1b357)
 
-</details>
 
 <!-------------------------------------------------------------------------------- DIGITAL INK RECOGNITION APP ----------------------------------------------------------------------------->
 ---
-<details open>
-  <summary><h2><a name="digital-ink-recognition-app"> Digital Ink Recognition App </a></h2></summary>
+
+# Digital Ink Recognition App <a name="digital-ink-recognition-app"></a>
   
 <p>Welcome to "InkSnap: Write Recognition AI," where the art of handwriting meets cutting-edge technology. Whether you're a creative thinker or a productivity enthusiast, InkSnap provides an immersive writing experience like never before.</p>
 
@@ -270,5 +269,3 @@ Main Screen        |  Result Screen
 Main Screen        |  Result Screen       
 :-------------------------:|:-------------------------:|
 ![ink-recognition-1](https://github.com/icanerdogan/DigitalInkRecognition-MLKit/assets/52867508/38c04eea-0984-4522-a3e5-8415b9416f50) | ![ink-recognition-2](https://github.com/icanerdogan/DigitalInkRecognition-MLKit/assets/52867508/4403bec6-8342-48cb-94c0-e5b96ee8c936)
-
-</details>
