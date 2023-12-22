@@ -1,13 +1,23 @@
 <h1> <a href = "https://www.udemy.com/course/mlkit-android-programlama/">❤ Google MLKit Android Apps  ❤</a> </h1>
 
-<ul>
-  <li><h4> <a href = "https://www.youtube.com/playlist?list=PLKZuE7QvI1_lQdcqmRxOJJd84i8C46ga2">🔸 Text Recognition - Youtube Playlist 🔸</a> </h4></li>
-  <li><h4> <a href = "https://youtube.com/playlist?list=PLKZuE7QvI1_n9uNbSdu8P-SS5FfrV7TpI&si=NmXjz9Lv1G0zFASc">🔸 Face Detection - Youtube Playlist 🔸</a> </h4></li>
-</ul>
-
 ```
 git clone https://github.com/icanerdogan/MLKit-Android-Apps
 ```
+
+<h2> Youtube Playlist </h2>
+<ul>
+  <li><h4> <a href = "https://www.youtube.com/playlist?list=PLKZuE7QvI1_lQdcqmRxOJJd84i8C46ga2">🔸 Text Recognition - Youtube Playlist 🔸</a> </h4></li>
+  <li><h4> <a href = "https://youtube.com/playlist?list=PLKZuE7QvI1_n9uNbSdu8P-SS5FfrV7TpI&si=NmXjz9Lv1G0zFASc">🔸 Face Detection - Youtube Playlist 🔸</a> </h4></li>
+  <li><h4> <a href = "https://www.youtube.com/playlist?list=PLKZuE7QvI1_mVi8QIU_HSfCdi1v_6_UpS">🔸 Pose Detection - Youtube Playlist 🔸</a> </h4></li>
+</ul>
+
+<h2> Udemy Courses </h2>
+<ul>
+  <<li><h4> <a href = "https://www.udemy.com/course/mlkit-text-recognition">🔹 Text Recognition - Free Udemy Course 🔹</a> </h4></li>
+  <li><h4> <a href = "https://www.udemy.com/course/mlkit-face-detection">🔹 Face Detection - Free Udemy Course 🔹</a> </h4></li>
+  <li><h4> <a href = "https://www.udemy.com/course/mlkit-pose-detection">🔹 Pose Detection - Free Udemy Course 🔹</a> </h4></li>
+  <li><h4> <a href = "https://www.udemy.com/course/mlkit-selfie-segmentation">🔹 Selfie Segmentation - Free Udemy Course 🔹</a> </h4></li>
+</ul>
 
 <!------------------------------------------------------------------------------- CONTENTS ------------------------------------------------------------------------------>
 
