@@ -13,7 +13,7 @@ git clone https://github.com/icanerdogan/MLKit-Android-Apps
 
 <h2> Udemy Courses </h2>
 <ul>
-  <<li><h4> <a href = "https://www.udemy.com/course/mlkit-text-recognition">🔹 Text Recognition - Free Udemy Course 🔹</a> </h4></li>
+  <li><h4> <a href = "https://www.udemy.com/course/mlkit-text-recognition">🔹 Text Recognition - Free Udemy Course 🔹</a> </h4></li>
   <li><h4> <a href = "https://www.udemy.com/course/mlkit-face-detection">🔹 Face Detection - Free Udemy Course 🔹</a> </h4></li>
   <li><h4> <a href = "https://www.udemy.com/course/mlkit-pose-detection">🔹 Pose Detection - Free Udemy Course 🔹</a> </h4></li>
   <li><h4> <a href = "https://www.udemy.com/course/mlkit-selfie-segmentation">🔹 Selfie Segmentation - Free Udemy Course 🔹</a> </h4></li>
