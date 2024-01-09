@@ -8,4 +8,11 @@
         android:icon="@drawable/icon_flashlight_on"
         android:title="@string/flash_light"
         app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuAddGallery"
+        android:checkable="true"
+        android:icon="@drawable/icon_add_gallery"
+        android:title="@string/add_gallery"
+        app:showAsAction="ifRoom"/>
 </menu>

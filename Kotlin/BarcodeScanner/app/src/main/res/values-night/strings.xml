@@ -2,4 +2,5 @@
 <resources>
     <string name="control_camera">Control Camera</string>
     <string name="flash_light">Flash Light</string>
+    <string name="add_gallery">Add Gallery</string>
 </resources>

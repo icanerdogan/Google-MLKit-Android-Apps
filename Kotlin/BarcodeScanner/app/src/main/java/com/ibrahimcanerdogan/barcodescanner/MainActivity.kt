@@ -105,12 +105,11 @@ class MainActivity : AppCompatActivity() {
                             it.icon = ContextCompat.getDrawable(this@MainActivity, R.drawable.icon_flashlight_on)
                         }
                     }
+                    R.id.menuAddGallery -> {
+                        requestPermissionLauncher.launch(arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE))
+                    }
                 }
                 return@setOnMenuItemClickListener true
-            }
-
-            bottomAppBar.setNavigationOnClickListener {
-                requestPermissionLauncher.launch(arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE))
             }
 
             buttonControl.setOnClickListener {

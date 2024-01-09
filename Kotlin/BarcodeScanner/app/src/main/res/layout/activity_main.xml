@@ -19,8 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        style="@style/Widget.MaterialComponents.BottomAppBar"
-        app:navigationIcon="@drawable/icon_add_gallery"
+        style="@style/Widget.Material3.BottomAppBar"
         app:menu="@menu/bottom_menu"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -29,6 +28,6 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/icon_stop"
         app:layout_anchor="@id/bottomAppBar"
-        android:backgroundTint="#FF03DAC5"
+        android:backgroundTint="#7FC7D9"
         android:contentDescription="@string/control_camera" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
