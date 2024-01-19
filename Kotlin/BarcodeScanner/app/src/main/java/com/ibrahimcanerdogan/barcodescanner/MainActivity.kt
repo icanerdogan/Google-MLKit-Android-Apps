@@ -115,9 +115,11 @@ class MainActivity : AppCompatActivity() {
             buttonControl.setOnClickListener {
                 if (isStop) {
                     bindToLifecycleUseCaseGroup()
+                    Toast.makeText(this@MainActivity,"Camera Started!", Toast.LENGTH_SHORT).show()
                     binding.buttonControl.setImageResource(R.drawable.icon_stop)
                 } else {
                     viewModel.cameraProvider.value?.unbindAll()
+                    Toast.makeText(this@MainActivity,"Camera Stopped!", Toast.LENGTH_SHORT).show()
                     binding.buttonControl.setImageResource(R.drawable.icon_play)
                 }
                 isStop = !isStop
@@ -357,6 +359,7 @@ class MainActivity : AppCompatActivity() {
                 image = InputImage.fromFilePath(this, it)
                 processBarcode(inputImage = image)
             } catch (e: Exception) {
+                Toast.makeText(this, "Barcode Not Found!", Toast.LENGTH_LONG).show()
                 Log.e("MainActivity", e.localizedMessage ?: "")
             }
         }
