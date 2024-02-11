@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Natural Language App</string>
+    <string name="language_identification">Language Identification</string>
+    <string name="translation">Translation</string>
+    <string name="smart_reply">Smart Reply</string>
+    <string name="entity_extraction">Entity Extraction</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

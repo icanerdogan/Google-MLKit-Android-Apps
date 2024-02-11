@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/entityExtractionFragment">
+
+    <fragment
+        android:id="@+id/entityExtractionFragment"
+        android:name="com.ibrahimcanerdogan.naturallanguageapp.entityextraction.EntityExtractionFragment"
+        android:label="fragment_entity_extraction"
+        tools:layout="@layout/fragment_entity_extraction" />
+    <fragment
+        android:id="@+id/languageIdentificationFragment"
+        android:name="com.ibrahimcanerdogan.naturallanguageapp.identification.LanguageIdentificationFragment"
+        android:label="fragment_language_identification"
+        tools:layout="@layout/fragment_language_identification" />
+    <fragment
+        android:id="@+id/smartReplyFragment"
+        android:name="com.ibrahimcanerdogan.naturallanguageapp.smartreply.SmartReplyFragment"
+        android:label="fragment_smart_reply"
+        tools:layout="@layout/fragment_smart_reply" />
+    <fragment
+        android:id="@+id/translationFragment"
+        android:name="com.ibrahimcanerdogan.naturallanguageapp.translation.TranslationFragment"
+        android:label="fragment_translation"
+        tools:layout="@layout/fragment_translation" />
+</navigation>

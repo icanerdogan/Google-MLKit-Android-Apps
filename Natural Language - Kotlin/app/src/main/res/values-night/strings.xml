@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language_identification">Language Identification</string>
+    <string name="translation">Translation</string>
+    <string name="smart_reply">Smart Reply</string>
+    <string name="entity_extraction">Entity Extraction</string>
+</resources>

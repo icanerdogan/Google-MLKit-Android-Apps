@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="?android:actionBarSize"
+    android:orientation="vertical"
+    tools:context=".identification.LanguageIdentificationFragment">
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:hint="Enter the text you want to Identification Language!"
+        tools:text="My hovercraft is full of eels." />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/buttonLanguageCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="10dp"
+            android:src="@drawable/icon_copy"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:tint="@color/material_dynamic_tertiary60"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="15sp"
+            android:hint="The Identified languages will appear here."
+            tools:text="en (English)" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/buttonLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="bottom|end"
+            android:text="PROCESS"
+            android:fontFamily="@font/poppins_bold"
+            app:icon="@drawable/icon_search"/>
+    </FrameLayout>
+</LinearLayout>
