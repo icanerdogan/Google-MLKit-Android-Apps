@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="language"
+            type="com.ibrahimcanerdogan.naturallanguageapp.translation.util.SupportedLanguages" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:checkable="true">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@{language.langEnglish}"
+            android:fontFamily="@font/poppins_medium"
+            tools:text="English"/>
+
+    </androidx.cardview.widget.CardView>
+</layout>

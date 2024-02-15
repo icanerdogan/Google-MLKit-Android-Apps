@@ -1,60 +1,132 @@
 package com.ibrahimcanerdogan.naturallanguageapp.translation
 
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.os.Handler
+import android.os.Looper
+import android.text.Editable
+import android.text.TextWatcher
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.ibrahimcanerdogan.naturallanguageapp.R
+import android.widget.Toast
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.ibrahimcanerdogan.naturallanguageapp.databinding.FragmentTranslationBinding
+import com.ibrahimcanerdogan.naturallanguageapp.translation.adapter.TranslationLanguageAdapter
+import com.ibrahimcanerdogan.naturallanguageapp.translation.util.SupportedLanguages
+import com.ibrahimcanerdogan.naturallanguageapp.translation.util.TranslationResource
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [TranslationFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class TranslationFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+    private var _binding: FragmentTranslationBinding? = null
+    private val binding get() = _binding!!
+
+    private val viewModel: TranslationViewModel by viewModels()
+
+    private var languageCodeSource: String? = null
+    private var languageCodeTarget: String? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_translation, container, false)
+    ): View {
+        _binding = FragmentTranslationBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment TranslationFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            TranslationFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        observeViewModel()
+        handleUIElements()
+    }
+
+    private fun handleUIElements() {
+        with(binding) {
+            // RecyclerView
+            recyclerViewSource.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+            val sourceAdapter = TranslationLanguageAdapter(SupportedLanguages.entries) { selectedLanguage ->
+                languageCodeSource = selectedLanguage.lanCode
+                Toast.makeText(requireContext(), "Selected: ${selectedLanguage.langNative}", Toast.LENGTH_SHORT).show()
+            }
+            recyclerViewSource.adapter = sourceAdapter
+
+            recyclerViewTarget.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+            val targetAdapter = TranslationLanguageAdapter(SupportedLanguages.entries) { selectedLanguage ->
+                languageCodeTarget = selectedLanguage.lanCode
+                Toast.makeText(requireContext(), "Selected: ${selectedLanguage.langNative}", Toast.LENGTH_SHORT).show()
+            }
+            recyclerViewTarget.adapter = targetAdapter
+
+            // Scroll Result Text
+            textViewTranslation.movementMethod = ScrollingMovementMethod()
+
+            buttonCopyTranslate.setOnClickListener { copyTextToClipboard() }
+
+            val textChangeListener = object : TextWatcher {
+                override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
+                override fun afterTextChanged(s: Editable?) {
+                    if (languageCodeSource != null && languageCodeTarget != null) {
+                        Handler(Looper.getMainLooper()).postDelayed({
+                            viewModel.processTranslation(s.toString(), languageCodeSource!!, languageCodeTarget!!)
+                            buttonCopyTranslate.visibility = if (s.isNullOrEmpty()) View.INVISIBLE else View.VISIBLE
+                        }, 500)
+                    } else {
+                        Toast.makeText(requireContext(), "Select Source & Target Language!", Toast.LENGTH_SHORT).show()
+                    }
                 }
             }
+
+            textInputTranslation.addTextChangedListener(textChangeListener)
+        }
     }
+
+    private fun observeViewModel() {
+        viewModel.translateData.observe(viewLifecycleOwner, ::setTranslatedText)
+    }
+
+    private fun setTranslatedText(translationResource: TranslationResource<String?>?) {
+        when(translationResource) {
+            is TranslationResource.Success -> {
+                binding.circularProgress.visibility = View.INVISIBLE
+                translationResource.data?.let {
+                    binding.textViewTranslation.text = it
+                }
+            }
+            is TranslationResource.Error -> {
+                binding.circularProgress.visibility = View.INVISIBLE
+                translationResource.data?.let {
+                    binding.textViewTranslation.text = it
+                }
+            }
+            is TranslationResource.Loading -> {
+                binding.circularProgress.visibility = View.VISIBLE
+            }
+            else -> {
+                binding.circularProgress.visibility = View.INVISIBLE
+                binding.textViewTranslation.text = "null"
+            }
+        }
+    }
+
+    private fun copyTextToClipboard() {
+        val clipboardManager = requireContext().getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+        val clip = ClipData.newPlainText("Copied Text", binding.textViewTranslation.text.toString())
+        clipboardManager.setPrimaryClip(clip)
+
+        Toast.makeText(requireContext(), "Translation copied to clipboard!", Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
 }

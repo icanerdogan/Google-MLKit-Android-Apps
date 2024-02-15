@@ -7,6 +7,15 @@ android {
     namespace 'com.ibrahimcanerdogan.naturallanguageapp'
     compileSdk 34
 
+    signingConfigs {
+        config {
+            storeFile file(STORE_FILE)
+            storePassword STORE_PASSWORD
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+        }
+    }
+
     defaultConfig {
         applicationId "com.ibrahimcanerdogan.naturallanguageapp"
         minSdk 24
@@ -19,7 +28,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            signingConfig signingConfigs.config
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -53,7 +63,8 @@ dependencies {
     androidTestImplementation libs.androidx.espresso.core
 
     // Language Identification
-    implementation libs.play.services.mlkit.language.id
+    implementation 'com.google.mlkit:language-id:17.0.4'
+    implementation 'com.google.android.gms:play-services-mlkit-language-id:17.0.0'
 
     // Translation
     implementation libs.translate
